@@ -596,7 +596,7 @@ static NSString *const iVersionMacAppStoreURLFormat = @"macappstore://itunes.app
                 }
                 
                 self.visibleRemoteAlert = [self alertViewWithTitle:title
-                                                           details:details
+                                                           details:[NSString stringWithFormat:@"%@%@", details, self.expansionVersionDetails]
                                                      defaultButton:self.downloadButtonLabel
                                                       cancelButton:self.ignoreButtonLabel];
                 

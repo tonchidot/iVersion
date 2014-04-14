@@ -128,6 +128,7 @@ iVersionErrorCode;
 @property (nonatomic, copy) NSString *ignoreButtonLabel;
 @property (nonatomic, copy) NSString *remindButtonLabel;
 @property (nonatomic, copy) NSString *downloadButtonLabel;
+@property (nonatomic, copy) NSString *expansionVersionDetails;
 
 //debugging and prompt overrides
 @property (nonatomic, assign) BOOL useAllAvailableLanguages;
